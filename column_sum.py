@@ -1,9 +1,9 @@
 def columnsum(matrix,rows,columns):
 
     result=[]
-    for i in range(rows):
+    for i in range(columns):
         sum=0
-        for j in range(columns):
+        for j in range(rows):
             sum+=matrix[j][i]
         result.append(sum)
     return result
